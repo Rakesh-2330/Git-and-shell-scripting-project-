@@ -1,4 +1,6 @@
 #! /bin/bash
 
-echo " hello world"
+# this is the command we use to print hellow world
+
+echo " hello world "
 
