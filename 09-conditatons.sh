@@ -1,12 +1,11 @@
 #! /bin/bash 
 
-Today=(" WHAT IS TODAY " )
+NUM=$1
 
-if Today=("mon" "tus" "wed" "thu" "fri" ) {
-    echo " we have a class today "
-}
-else {
-    echo " we have no class today "
-}  
+if [ $NUM -gt 20 ] #gt ,lt, eq, -ne
+then
+    echo "Given number:  $NUM is gereater then 20 "
+else 
+    echo "Given number: $NUM is less then 20 "
 
 fi
