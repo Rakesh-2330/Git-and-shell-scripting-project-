@@ -21,6 +21,7 @@ then
         exit 1
     else
         echo " git is installed sucessful "
+    fi
 else 
     echo " git is already insatalled, there is nothing to do "
 fi
@@ -37,6 +38,7 @@ then
         exit 1
     else
         echo " mysql is installed sucessful "
+    fi
 else 
     echo " mysql is already insatalled, there is nothing to do "
 fi
