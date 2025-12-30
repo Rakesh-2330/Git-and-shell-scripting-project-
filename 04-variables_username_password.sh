@@ -3,13 +3,13 @@
 echo " Pleace enter you username :: "
 
 
-read USERNAME
+read -s USERNAME # takes the input from user for the username variable
 
-echo "username entered is $USERNAME "
+echo " username entered is $USERNAME "
 
 echo " pleace enter your password "
 
-read PASSWORD
+read  -s PASSWORD # takes the input from user for the password variable
 
 echo " password entered is $PASSWORD "
 
