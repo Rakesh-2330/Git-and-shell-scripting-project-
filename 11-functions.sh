@@ -1,7 +1,7 @@
 #! /bin/bash
 
 USERID=$(id -u)
-echo " the user id of the user is : $USERID "
+# echo " the user id of the user is : $USERID "
 
 VALIDATE() {
     if [ $? -ne 0 ]
