@@ -1,6 +1,6 @@
 #! /bin/bash
 
-DISK_USAGE=$(df -hT | grep Type )
+DISK_USAGE=$(df -hT )
 DISK_THRESHOLD=5 #in our prod we are using 75
 
 while IFS= read -r line 
