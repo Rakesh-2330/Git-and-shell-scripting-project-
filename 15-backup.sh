@@ -3,7 +3,7 @@
 $SOURCE_DIR=$1
 $DEST_DIR=$2
 
-if [ -d $SOURCE_DIR ]
+if [ -d $1 ]
 then 
     echo " $SOURCE_DIR exists "
 eles
@@ -11,7 +11,7 @@ eles
     exit 1
 fi 
 
-if [ -d $DEST_DIR ]
+if [ -d $2 ]
 then
     echo " $DEST_DIR exists "
 else
