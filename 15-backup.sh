@@ -1,7 +1,7 @@
 #! /bin/bash
 
-$SOURCE_DIR echo " enter the sorce  dir "
-$DEST_DIR echo " enter the dest dir "
+$SOURCE_DIR=$1
+$DEST_DIR=$2
 
 if [ -d $SOURCE_DIR ]
 then 
