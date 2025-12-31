@@ -5,16 +5,16 @@ $DEST_DIR=$2
 
 if [ -d $1 ]
 then 
-    echo " $SOURCE_DIR exists "
+    echo " $1 exists "
 eles
-    echo " $SOURCE_DIR not exists "
+    echo " $S1 not exists "
     exit 1
 fi 
 
 if [ -d $2 ]
 then
-    echo " $DEST_DIR exists "
+    echo " $1 exists "
 else
-    echo " $DEST_DIR not exists "
+    echo " $1 not exists "
 fi
 
